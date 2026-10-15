@@ -3,45 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tika Ram Thapa Magar - IT Graduate</title>
+    <title>Tika Ram Thapa Magar | IT Graduate</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Tika Ram Thapa Magar</h1>
-        <p>IT Graduate | Technical Support Enthusiast</p>
-    </header>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">TikaRam.dev</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am an IT graduate based in Hobart with a Bachelor of Information Technology. I enjoy solving problems, learning new technologies, and helping people. I am reliable, eager to learn, and ready to contribute to your team.</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Hi, I'm <span>Tika Ram Thapa Magar</span></h2>
+            <p>IT Graduate | Frontend Developer | Technical Support Enthusiast</p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
     </section>
 
-    <section id="skills">
-        <h2>My Skills</h2>
-        <ul>
-            <li>HTML, CSS, JavaScript</li>
-            <li>Microsoft 365, Windows, Linux</li>
-            <li>Cloud & Virtualisation</li>
-            <li>Customer Service & Troubleshooting</li>
-            <li>Ticketing Management System</li>
-            <li>Cyber secuirty Intern</li>
-        </ul>
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h3>About Me</h3>
+            <div class="about-content">
+                <p>I am an IT graduate based in Hobart with a Bachelor of Information Technology. I enjoy solving problems, learning new technologies, and building clean, responsive websites. I am reliable, eager to learn, and ready to contribute to your team.</p>
+            </div>
+        </div>
     </section>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <p>More projects coming soon!</p>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h3>My Skills</h3>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h4>HTML</h4>
+                    <p>Building strong, semantic website structures</p>
+                </div>
+                <div class="skill-card">
+                    <h4>CSS</h4>
+                    <p>Creating modern layouts and responsive designs</p>
+                </div>
+                <div class="skill-card">
+                    <h4>JavaScript</h4>
+                    <p>Adding interactivity and dynamic features</p>
+                </div>
+                <div class="skill-card">
+                    <h4>Technical Skills</h4>
+                    <p>Microsoft 365, Windows, Linux, Cloud & Virtualisation,Trouble shooting, Ticketing Management System</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Phone: 0413 352 294</p>
-        <p>Email: bejaythapa11@gmail.com</p>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h3>My Projects</h3>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h4>Personal Portfolio Website</h4>
+                    <p>My first professional portfolio built with HTML, CSS and JavaScript</p>
+                    <a href="https://github.com/tik123/portfolio-website" target="_blank" class="project-link">View Code on GitHub</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2026 Tika Ram Thapa Magar</p>
+    <!-- Contact Section — FULL DETAILS HERE -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h3>Contact Me</h3>
+            <p class="contact-intro">I'm available for work and collaboration — feel free to reach out!</p>
+            
+            <div class="contact-details">
+                <div class="contact-item">
+                    <strong>📧 Email:</strong>
+                    <a href="mailto:bejaythapa11@gmail.com">bejaythapa11@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                    <strong>📱 Phone:</strong>
+                    <span>0413 352 294</span>
+                </div>
+                <div class="contact-item">
+                    <strong>📍 Location:</strong>
+                    <span>Hobart, Tasmania, Australia</span>
+                </div>
+                <div class="contact-item">
+                    <strong>💻 GitHub:</strong>
+                    <a href="https://github.com/tik123" target="_blank">github.com/tik123</a>
+                </div>
+            </div>
+
+            <a href="mailto:bejaythapa11@gmail.com" class="btn email-btn">Send Me an Email</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Tika Ram Thapa Magar. All rights reserved.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
